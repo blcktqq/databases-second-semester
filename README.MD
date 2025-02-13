@@ -4,6 +4,13 @@
 - SSMS or DataGrip
 
 
+## Excalidraw
+
+https://excalidraw.com/#json=jMJUAlkFIXNULwb_FF7Ro,h5gfPKUYw4COYfUb-BkrFA
+
+Diagram: 
+![Diagram](database.excalidraw.svg)
+
 ## How to start
 
 Open terminal in project's root folder. 

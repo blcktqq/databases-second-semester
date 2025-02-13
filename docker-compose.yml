@@ -1,0 +1,16 @@
+version: '3.3'
+
+services:
+  mssql:
+    image: mcr.microsoft.com/mssql/server
+    restart: always
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "AwesomePassword123"
+    ports:
+      - 1433:1433
+    volumes:
+      - mssql-storage:/var/opt/mssql
+      
+volumes:
+  mssql-storage:

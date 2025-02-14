@@ -22,6 +22,8 @@ alter table dbo.Person
     alter column last_name nvarchar(255) not null
 go
 
+
+
 create index Person_name_last_name_index
     on dbo.Person (name, last_name)
 go
@@ -59,3 +61,18 @@ alter table dbo.StudentsInGroup
         primary key (groupId, studentId)
 go
 
+
+
+
+
+create table dbo.Staff
+(
+    id       int identity
+        constraint Staff_pk
+            primary key,
+    title    nvarchar(512) not null,
+    personId int
+        constraint Staff_Person_id_fk
+            references dbo.Person (id)
+)
+go

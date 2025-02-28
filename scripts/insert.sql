@@ -103,6 +103,7 @@ INSERT INTO bookalab.dbo.Person (name, last_name) VALUES (N'Xavier', N'Bowen');
 INSERT INTO bookalab.dbo.Person (name, last_name) VALUES (N'Zelda', N'Huffman');
 
 
+INSERT INTO bookalab.dbo.Person (name, last_name) VALUES (N'Denys', N'Sadilo');
 
 INSERT INTO bookalab.dbo.[Group] (start, prefix, sequence) VALUES (N'2023-04-01 00:00:00.000', N'КС', N'3');
 INSERT INTO bookalab.dbo.[Group] (start, prefix, sequence) VALUES (N'2022-05-27 00:00:00.000', N'КК', N'2');
